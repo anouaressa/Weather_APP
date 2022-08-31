@@ -53,8 +53,8 @@ $deg=$content->wind->deg;
 </div>
 
 
-
-    <h1>Meteo of day in<?= $name;?></h1>
+    <br>
+    <h1>Meteo of this day in :<?= $name;?></h1>
     <div class="row justify-content-center align-item-center">
         <?php 
             switch($weather)
