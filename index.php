@@ -46,7 +46,7 @@ $deg=$content->wind->deg;
     <div class="col-md-6 mx-auto center-block">
         <form action="index.php" method="get">        
         <input type="text" class="form-control" name="city" placeholder="City name"> <br>
-        <button type="submit" class="btn btn-success">Serche</button>
+        <button type="submit" class="btn btn-success">Search</button>
     
   </form>
     </div>
