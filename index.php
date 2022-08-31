@@ -35,7 +35,7 @@ $deg=$content->wind->deg;
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
-    <title>Document</title>
+    <title>weatherAPP</title>
 </head>
 <body>
     <div class="container text-center py-5 container-fluid heigth=100%">
@@ -54,7 +54,7 @@ $deg=$content->wind->deg;
 
 
 
-    <h1>Meteo de joueur a <?= $name;?></h1>
+    <h1>Meteo of day in<?= $name;?></h1>
     <div class="row justify-content-center align-item-center">
         <?php 
             switch($weather)
@@ -125,10 +125,10 @@ $deg=$content->wind->deg;
 
             <div class="meteo_desc text-left">
                 <h2>
-                   <strong>La temprateur est:</strong> <?php echo $temp;?> Celuciuss <br>
-                   <strong> La vitess de vent  est : </strong><?php echo $speed;?> km/h <br><strong> Le degre de vent  est:</strong><?php echo $deg;?> degre <br/>
-                   <strong> La tempurateur Min : </strong> <?php echo $temp_min ?> Celuciuss <br>
-                   <strong> La tempurateur Max : </strong> <?php echo $temp_max ?> Celuciuss <br>
+                   <strong>The temperature is:</strong> <?php echo $temp;?> °C <br>
+                   <strong> The wind speed is : </strong><?php echo $speed;?> km/h <br><strong> The degree of wind is:</strong><?php echo $deg;?> degre <br/>
+                   <strong> The Min temperature is : </strong> <?php echo $temp_min ?> °C <br>
+                   <strong> The Max temperature is : </strong> <?php echo $temp_max ?> °C <br>
                    <?php echo $desc ?>
                 </h2>
             </div>
